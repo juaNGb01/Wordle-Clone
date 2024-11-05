@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Forca</title>
+    <link rel="stylesheet" href="style.css"> 
+    <link rel="stylesheet" href="modalsStyle.css"> 
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+
+
+</head>
+<body>
+    <header>
+        <h1 id="title">Wordle</h1>
+        
+    </header>
+    
+    
+
+    <div id="mainContainer">
+
+        <button id="genarateBtn"> Generate Word</button> 
+        <button id="tipBtn">tip</button>
+        <button id="GiveUpBtn">Give Up</button>
+
+        <input type="text" id="inputLetter" placeholder="Digite uma letra" autocomplete="off">
+    
+        <button id="verifyBtn" onclick="verify()">Verify</button>  
+        
+
+        <div id="lifesDisplay"></div>
+        <p id="infoMsg" style="color: rgb(242, 127, 127)"></p>    <!--exibe msg de erro caso houver-->
+        <div id="boxContainer"></div>
+        
+        
+        
+        <ul id="displayTips" style="display: none;"></ul>
+
+        <dialog>
+            <h1></h1>
+            <p></p>
+            <p></p>
+            <button onclick="generateWord()">Play again</button>
+        </dialog>
+        
+        
+
+    </div>
+    
+
+    <script src="script2.js"> </script>
+</body>
+</html>
