@@ -1,9 +1,24 @@
-Projeto Wordle
+# Wordle-Clone
 
--O projeto tem como objetivo criar uma versão semelhante do jogo Wordle, que basicamente consiste em adivinhar qual é a palavra correta;
+-O projeto tem como objetivo recriar do jogo Wordle do NY Times. 
 
--Ele funciona totalemente em inglês; 
+# 🚀 Tecnologias Utilizadas
 
--Diferente da versão original do NY Times, está versão tem uma funcionalidade adicional de solicitar dicas, porém com um limite de 2 por palavra; 
+Projeto inteiramente em HTML, CSS, JavaScript, para a desenvolvimento da interface e lógica do jogo.
 
--As Palavras e dicas são todas provenientes de uma API externa; 
+Random Word API (random-word-api.vercel.app) - Para gerar palavras aleatórias.
+
+Dictionary API (dictionaryapi.dev) - Para obter definições das palavras que servem como dicas.
+
+# 📌 Como Jogar
+
+O jogador deve inserir uma palavra de 5 letras, ou então uma letra por vezes
+
+Caso a letra inserida esteja presente ele estara verde
+
+O jogador tem um número limitado de tentativas 5 tentativas para acertar a palavra.
+
+Para encontrar a palavra o jogador pode solicitar um número limitado de dicas. Entretanto a medida que são solicitadas a pontuação do usuário diminui
+
+Se acertar, uma mensagem de vitória aparece. Caso contrário, a palavra correta é revelada.
+
