@@ -142,7 +142,7 @@ function displayWordBox() {
 
         //display das vidas
         let lifes = document.createElement('img');
-        lifes.setAttribute('src', 'favicon_io/heart/heart_icon.png'); 
+        lifes.setAttribute('src', '../favicon_io/heart/heart_icon.png'); 
 
 
         lifesDisplay.appendChild(lifes);
